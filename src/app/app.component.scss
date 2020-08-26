@@ -55,6 +55,21 @@ header {
       display: block;
       background: #F1F1F1;
     }
+
+    .invoice-details {
+      display: flex;
+      justify-content: space-between;
+      height: 15vh;
+
+      span {
+        background: #FFF;
+      }
+
+      div {
+        padding: 0;
+        margin: 0 6px;
+      }
+    }
   }
 
   .amount-paid {
@@ -64,6 +79,27 @@ header {
         margin-left: 5px;
         width: 15%;
       }
+    }
+  }
+
+  .download-invoice {
+    text-align-last: center;
+
+    button {
+      border: none;
+      outline: none;
+      background: #00BCD2;
+      color: #FFFFFF;
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    input {
+      border: none;
+      width: 82%;
+      border-bottom: 2px solid #999999;
+      height: 28px;
+      text-align-last: auto;
     }
   }
 }
@@ -85,5 +121,13 @@ header {
   .container {
     max-width: 100%;
     margin: 0 10px;
+
+    .download-invoice {
+      input {
+        width: 78%;
+        border-bottom: 2px solid #999999;
+        height: 4vh;
+      }
+    }
   }
 }
