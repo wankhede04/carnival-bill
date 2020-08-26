@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #F1F1F1;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  div {
+    text-align-last: left;
+    margin: 10px 0;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 1px 3px 6px 0px #AAAAAA;
+  }
+
+  p {
+    color: #606060;
+    font-size: 12px;
+  }
+}
