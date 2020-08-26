@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'carnival-bill';
+  purchaseItems: number[] = [1, 2];
 }
