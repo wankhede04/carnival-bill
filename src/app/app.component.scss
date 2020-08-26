@@ -117,6 +117,50 @@ header {
       font-size: 15px;
     }
   }
+
+  .greencard {
+    .green-logo {
+      display: flex;
+      justify-content: space-between;
+      color: #00aa8a;
+      font-weight: 600;
+      background: #FFFFFF;
+      padding: 4px 10px;
+      box-shadow: 1px 3px 6px 0px #FFFFFF;
+  
+      label {
+        position: relative;
+        top: 18px;
+      }
+  
+      img {
+        width: 55%;
+      }
+    }
+    .circles {
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 1px 3px 6px 0px #FFFFFF;
+
+      div {
+        background: #F8F6C0;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align-last: center;
+        display: grid;
+        padding: 30px;
+        text-align: center;
+        color: #00aa8a;
+        font-weight: 600;
+
+        hr {
+          width: 35%;
+          height: 0%;
+        }
+      }
+    }
+  }
 }
 
 // Media queries
