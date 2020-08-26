@@ -96,6 +96,7 @@ header {
 
     input {
       border: none;
+      outline: none;
       width: 82%;
       border-bottom: 2px solid #999999;
       height: 28px;
@@ -115,6 +116,90 @@ header {
       color: #FFFFFF;
       text-align-last: center;
       font-size: 15px;
+    }
+  }
+
+  .greencard {
+    .green-logo {
+      display: flex;
+      justify-content: space-between;
+      color: #00aa8a;
+      font-weight: 600;
+      background: #FFFFFF;
+      padding: 4px 10px;
+      box-shadow: 1px 3px 6px 0px #FFFFFF;
+  
+      label {
+        position: relative;
+        top: 18px;
+      }
+  
+      img {
+        width: 55%;
+      }
+    }
+    .circles {
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 1px 3px 6px 0px #FFFFFF;
+
+      div {
+        background: #F8F6C0;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        text-align-last: center;
+        display: grid;
+        padding: 30px;
+        text-align: center;
+        color: #00aa8a;
+        font-weight: 600;
+
+        hr {
+          width: 35%;
+          height: 0%;
+        }
+      }
+    }
+  }
+
+  .advert {
+    padding: 0;
+    box-shadow: 1px 3px 6px 0px #FFFFFF;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .contacts {
+    display: grid;
+  }
+
+  .terms-condition {
+    p {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+
+  .contact-details {
+    display: grid;
+    justify-content: center;
+    background: #F1F1F1;
+    box-shadow: 1px 3px 6px 0px #F1F1F1;
+
+    p {
+      margin: 3px 0;
+      justify-self: center;
+      font-size: 14px;
+    }
+  }
+
+  .carnival {
+    p {
+      font-size: 15px;
+      margin: 3px 0;
     }
   }
 }
@@ -146,3 +231,10 @@ header {
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 55%;
+  }
+}
+
